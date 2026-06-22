@@ -1,8 +1,7 @@
 import React from "react";
-import ContactForm from "../components/ContactForm";
 import AboutPage from "../components/About";
 
-const ContactPage = ({ formData, setFormData, formStatus, setFormStatus }) => {
+const ContactPage = () => {
   return (
     <>
       <AboutPage />
