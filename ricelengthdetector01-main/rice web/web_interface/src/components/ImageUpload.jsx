@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { Play, Pause, RotateCw, Ruler, ArrowRight } from "lucide-react";
+import { Ruler } from "lucide-react";
 import videofile from "../../assets/video_1.mp4";
 const ImageUpload = () => {
   const steps = [
@@ -101,7 +100,6 @@ const ImageUpload = () => {
                   <div>
                     <h4 className="font-semibold mb-2">{step.title}</h4>
                     <p className="text-sm text-gray-600">{step.description}</p>
-                    {index < steps.length - 1}
                   </div>
                 </div>
               ))}

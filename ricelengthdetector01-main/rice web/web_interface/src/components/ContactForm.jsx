@@ -470,12 +470,12 @@ const ContactForm = ({ formData, setFormData, formStatus, setFormStatus }) => {
               <Github size={28} className="text-leaf-600 mb-3" />
               <h4 className="text-lg font-semibold mb-1">GitHub</h4>
               <a
-                href="https://github.com"
+                href="https://github.com/devang-3/rice-grain-length-detector"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-leaf-700 hover:underline"
               >
-                github.com/rice-detector
+                github.com/devang-3/rice-grain-length-detector
               </a>
             </div>
           </div>

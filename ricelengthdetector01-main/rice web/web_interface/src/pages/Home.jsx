@@ -5,7 +5,7 @@ import FeaturesAccuracy from "../components/FeaturesAccuracy";
 import AdvantagesDisadvantages from "../components/AdvantagesDisadvantages";
 import ScreenshotGallery from "../components/ScreenshotGallery";
 
-const HomePage = ({ formData, setFormData, formStatus, setFormStatus }) => {
+const HomePage = () => {
   return (
     <>
       <Hero />
